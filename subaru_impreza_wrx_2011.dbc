@@ -42,5 +42,13 @@ BO_ 1298 NEW_MSG_1: 8 XXX
  SG_ Front Wheel Speed : 8|16@1+ (0.005625,0) [0|65535] "" XXX
  SG_ Brake? : 32|8@1+ (1,0) [0|255] "" XXX
  SG_ Counter : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ Gear? : 24|8@1- (1,0) [0|255] "" XXX
  SG_ Noisy Signal : 48|16@1+ (1,0) [0|65535] "" XXX
- SG_ NEW_SIGNAL_1 : 24|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 1040 NEW_MSG_2: 8 XXX
+ SG_ Transmission Torque ??? : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ Engine Torque ??? : 16|8@1+ (1,0) [0|255] "" XXX
+ SG_ Torque Loss ??? : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ Accelerator Position : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ Engine Speed : 47|16@0+ (1,0) [0|65535] "" XXX
+ SG_ Clutch Engaged ??? : 62|1@0+ (1,0) [0|1] "" XXX
