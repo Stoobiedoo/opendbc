@@ -33,4 +33,14 @@ NS_ :
 
 BS_:
 
-BU_:
+BU_: XXX
+
+
+BO_ 1041 ECU CAN-ID 0X411: 8 XXX
+
+BO_ 1298 NEW_MSG_1: 8 XXX
+ SG_ Front Wheel Speed : 8|16@1+ (0.005625,0) [0|65535] "" XXX
+ SG_ Brake? : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ Counter : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ Noisy Signal : 48|16@1+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_1 : 24|8@1+ (1,0) [0|255] "" XXX
