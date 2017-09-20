@@ -33,31 +33,31 @@ NS_ :
 
 BS_:
 
-BU_: XXX  r 6
+BU_: XXX
 
-
-BO_ 1298 VDC/ABS CAN-ID: 8 XXX
- SG_ Counter : 40|8@1+ (1,0) [0|255] "" XXX
- SG_ Vehicle Speed : 23|16@0+ (0.05625,0) [0|65535] "km/hr" XXX
- SG_ Brake Switch : 36|1@0+ (1,0) [0|1] "" XXX
- SG_ F-Code : 55|16@0+ (1,0) [0|65535] "" XXX
- SG_ VDC Switch : 4|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 1040 NEW_MSG_2: 8 XXX
- SG_ Engine Torque : 16|8@1+ (1,0) [0|255] "" XXX
- SG_ Torque Loss : 24|8@1+ (1,0) [0|255] "" XXX
- SG_ Accelerator Position : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ Engine_Torque : 16|8@1+ (1,0) [0|255] "" XXX
+ SG_ Torque_Loss : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ Accelerator_Position : 32|8@1+ (1,0) [0|255] "" XXX
  SG_ Clutch : 62|1@0+ (1,0) [0|1] "" XXX
- SG_ Transmission Torque : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ Transmission_Torque : 8|8@1+ (1,0) [0|255] "" XXX
  SG_ Unknown : 0|8@1+ (1,0) [0|255] "" XXX
- SG_ Engine Speed : 47|16@0+ (1,0) [0|65535] "" XXX
+ SG_ Engine_Speed : 47|16@0+ (1,0) [0|65535] "" XXX
+ 
+ BO_ 1298 NEW_MSG_3: 8 XXX
+ SG_ Counter : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ Vehicle_Speed : 23|16@0+ (0.05625,0) [0|65535] "km/hr" XXX
+ SG_ Brake_Switch : 36|1@0+ (1,0) [0|1] "" XXX
+ SG_ F-Code : 55|16@0+ (1,0) [0|65535] "" XXX
+ SG_ VDC_Switch : 4|1@0+ (1,0) [0|1] "" XXX
+ 
+ BO_ 1297 NEW_MSG_4: 8 XXX
+ SG_ Brake_Percentage : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ Steering_Torque : 23|16@0+ (1,0) [0|65535] "" XXX
+ SG_ Steering_Wheel_Angle : 7|16@0+ (1,0) [0|65535] "" XXX
 
-BO_ 1297 VDC/ABS CAN-ID: 8 XXX
- SG_ Brake Percentage : 32|8@1+ (1,0) [0|255] "" XXX
- SG_ Steering Torque : 23|16@0+ (1,0) [0|65535] "" XXX
- SG_ Steering Wheel Angle : 7|16@0+ (1,0) [0|65535] "" XXX
-
-BO_ 1281 VDC/ABS CAN-ID: 8 XXX
+BO_ 1281 NEW_MSG_5: 8 XXX
  SG_ Counter : 40|8@1+ (1,0) [0|255] "" XXX
 
-BO_ 1041 ECU CAN-ID: 8 XXX
+BO_ 1041 NEW_MSG_6: 8 XXX
