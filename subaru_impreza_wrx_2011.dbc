@@ -36,7 +36,7 @@ BS_:
 BU_: XXX
 
 
-BO_ 1040 NEW_MSG_2: 8 XXX
+BO_ 1040 NEW_MSG_0410: 8 XXX
  SG_ Engine_Torque : 16|8@1+ (1,0) [0|255] "" XXX
  SG_ Torque_Loss : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ Accelerator_Position : 32|8@1+ (1,0) [0|255] "" XXX
@@ -44,15 +44,14 @@ BO_ 1040 NEW_MSG_2: 8 XXX
  SG_ Transmission_Torque : 8|8@1+ (1,0) [0|255] "" XXX
  SG_ Unknown : 0|8@1+ (1,0) [0|255] "" XXX
  SG_ Engine_Speed : 47|16@0+ (1,0) [0|65535] "" XXX
- 
- BO_ 1298 NEW_MSG_3: 8 XXX
+
+BO_ 1298 NEW_MSG_3: 8 XXX
  SG_ Counter : 40|8@1+ (1,0) [0|255] "" XXX
  SG_ Vehicle_Speed : 23|16@0+ (0.05625,0) [0|65535] "km/hr" XXX
  SG_ Brake_Switch : 36|1@0+ (1,0) [0|1] "" XXX
- SG_ F-Code : 55|16@0+ (1,0) [0|65535] "" XXX
  SG_ VDC_Switch : 4|1@0+ (1,0) [0|1] "" XXX
- 
- BO_ 1297 NEW_MSG_4: 8 XXX
+
+BO_ 1297 NEW_MSG_4: 8 XXX
  SG_ Brake_Percentage : 32|8@1+ (1,0) [0|255] "" XXX
  SG_ Steering_Torque : 23|16@0+ (1,0) [0|65535] "" XXX
  SG_ Steering_Wheel_Angle : 7|16@0+ (1,0) [0|65535] "" XXX
@@ -60,4 +59,46 @@ BO_ 1040 NEW_MSG_2: 8 XXX
 BO_ 1281 NEW_MSG_5: 8 XXX
  SG_ Counter : 40|8@1+ (1,0) [0|255] "" XXX
 
-BO_ 1041 NEW_MSG_6: 8 XXX
+BO_ 1041 NEW_MSG_0411: 8 XXX
+ SG_ NEW_SIGNAL_1 : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ DIRTY_SIGNAL_3 : 22|1@0+ (1,0) [0|1] "" XXX
+ SG_ DIRTY_SIGNAL_2 : 23|1@0+ (1,0) [0|1] "" XXX
+ SG_ DIRTY_SIGNAL_4 : 61|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 2 NEW_MSG_02: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 16|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 56|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 1042 NEW_MSG_0412: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_2 : 23|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_3 : 39|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 1537 NEW_MSG_0601: 8 XXX
+ SG_ NEW_SIGNAL_1 : 31|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 1300 NEW_MSG_0514: 8 XXX
+ SG_ NEW_SIGNAL_3 : 48|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_6 : 16|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ Hand_Brake : 57|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 1299 NEW_MSG_0513: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|16@0+ (0.005625,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_2 : 23|16@0+ (0.005625,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_3 : 39|16@0+ (0.005625,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_4 : 55|16@0+ (0.005625,0) [0|65535] "" XXX
+
+BO_ 1398 NEW_MSG_0576: 8 XXX
+ SG_ NEW_SIGNAL_1 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 48|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 56|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 128 NEW_MSG_080: 8 XXX
+ SG_ NEW_SIGNAL_1 : 40|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 112 NEW_MSG_070: 8 XXX
