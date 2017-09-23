@@ -47,30 +47,25 @@ BO_ 1040 NEW_MSG_0410: 8 XXX
 
 BO_ 1298 NEW_MSG_0512: 8 XXX
  SG_ Counter : 40|8@1+ (1,0) [0|255] "" XXX
- SG_ Vehicle_Speed : 23|16@0+ (0.05625,0) [0|65535] "km/hr" XXX
  SG_ Brake_Switch : 36|1@0+ (1,0) [0|1] "" XXX
  SG_ VDC_Switch : 4|1@0+ (1,0) [0|1] "" XXX
+ SG_ Vehicle_Speed : 16|16@1+ (0.05625,0) [0|65535] "km/hr" XXX
 
 BO_ 1297 NEW_MSG_0511: 8 XXX
+ SG_ Steering_Torque : 16|16@1- (1,0) [0|65535] "" XXX
+ SG_ Steering_Wheel_Angle : 0|16@1- (1,0) [0|65535] "" XXX
  SG_ Brake_Percentage : 32|8@1+ (1,0) [0|255] "" XXX
- SG_ Steering_Torque : 23|16@0+ (1,0) [0|65535] "" XXX
- SG_ Steering_Wheel_Angle : 7|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 1281 NEW_MSG_0501: 8 XXX
  SG_ Counter : 40|8@1+ (1,0) [0|255] "" XXX
  SG_ All_On_Byte4 : 24|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 1041 NEW_MSG_0411: 8 XXX
- SG_ NEW_SIGNAL_1 : 24|8@1+ (1,0) [0|255] "" XXX
- SG_ DIRTY_SIGNAL_3 : 22|1@0+ (1,0) [0|1] "" XXX
- SG_ DIRTY_SIGNAL_2 : 23|1@0+ (1,0) [0|1] "" XXX
- SG_ DIRTY_SIGNAL_4 : 61|1@0+ (1,0) [0|1] "" XXX
+ SG_ 0411_Byte3 : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 32|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 2 NEW_MSG_02: 8 XXX
- SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_2 : 8|8@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_3 : 16|8@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_4 : 56|1@0+ (1,0) [0|1] "" XXX
+ SG_ Steering : 0|16@1- (0.1,0) [0|65535] "" XXX
 
 BO_ 1042 NEW_MSG_0412: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
@@ -85,14 +80,14 @@ BO_ 1300 NEW_MSG_0514: 8 XXX
  SG_ NEW_SIGNAL_6 : 16|8@1+ (1,0) [0|255] "" XXX
  SG_ Hand_Brake : 57|1@0+ (1,0) [0|1] "" XXX
  SG_ Noisy_Byte5 : 32|8@1+ (1,0) [0|255] "" XXX
- SG_ Clean_60_to_210 : 40|8@1+ (1,0) [0|255] "" XXX
  SG_ Noisy_0_to_15 : 48|4@1+ (1,0) [0|15] "" XXX
+ SG_ Clean_60_to_210 : 40|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 1299 NEW_MSG_0513: 8 XXX
- SG_ Wheel_Speed_1 : 7|16@0+ (0.005625,0) [0|65535] "" XXX
- SG_ Wheel_Speed_2 : 23|16@0+ (0.005625,0) [0|65535] "" XXX
- SG_ Wheel_Speed_3 : 39|16@0+ (0.005625,0) [0|65535] "" XXX
- SG_ Wheel_Speed_4 : 55|16@0+ (0.005625,0) [0|65535] "" XXX
+ SG_ Wheel_Speed_1 : 0|16@1+ (0.05625,0) [0|65535] "" XXX
+ SG_ Wheel_Speed_2 : 16|16@1+ (0.05625,0) [0|65535] "" XXX
+ SG_ Wheel_Speed_3 : 32|16@1+ (0.05625,0) [0|65535] "" XXX
+ SG_ Wheel_Speed_4 : 48|16@1+ (0.05625,0) [0|65535] "" XXX
 
 BO_ 1398 NEW_MSG_0576: 8 XXX
  SG_ Noisy_Byte7 : 48|8@1+ (1,0) [0|255] "" XXX
@@ -124,8 +119,6 @@ BO_ 117 NEW_MSG_075: 8 XXX
  SG_ NEW_SIGNAL_3 : 56|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 1536 NEW_MSG_0600: 8 XXX
- SG_ NEW_SIGNAL_1 : 8|8@1+ (1,0) [0|255] "" XXX
  SG_ Counter : 32|8@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_3 : 16|8@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_4 : 40|8@1+ (1,0) [0|255] "" XXX
  SG_ CoolantTemp : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ FuelConsumption : 8|16@1+ (1,0) [0|65535] "" XXX
