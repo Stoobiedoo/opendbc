@@ -87,7 +87,6 @@ BO_ 1300 NEW_MSG_0514: 8 XXX
  SG_ Noisy_Byte5 : 32|8@1+ (1,0) [0|255] "" XXX
  SG_ Clean_60_to_210 : 40|8@1+ (1,0) [0|255] "" XXX
  SG_ Noisy_0_to_15 : 48|4@1+ (1,0) [0|15] "" XXX
- SG_ ReverseSwitch? : 6|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 1299 NEW_MSG_0513: 8 XXX
  SG_ Wheel_Speed_1 : 7|16@0+ (0.005625,0) [0|65535] "" XXX
@@ -128,6 +127,5 @@ BO_ 1536 NEW_MSG_0600: 8 XXX
  SG_ NEW_SIGNAL_1 : 8|8@1+ (1,0) [0|255] "" XXX
  SG_ Counter : 32|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 16|8@1+ (1,0) [0|255] "" XXX
- SG_ B : NaN|NaN@0+ (4,8) [NaN|8] "," 1
- SG_ NEW_SIGNAL_2 : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_4 : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ CoolantTemp : 24|8@1+ (1,0) [0|255] "" XXX
