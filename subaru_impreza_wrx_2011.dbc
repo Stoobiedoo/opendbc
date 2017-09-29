@@ -43,7 +43,7 @@ BO_ 1040 NEW_MSG_0410: 8 XXX
  SG_ Clutch : 62|1@0+ (1,0) [0|1] "" XXX
  SG_ Transmission_Torque : 8|8@1+ (1,0) [0|255] "" XXX
  SG_ Unknown : 0|8@1+ (1,0) [0|255] "" XXX
- SG_ Engine_Speed : 47|16@0+ (1,0) [0|65535] "" XXX
+ SG_ Engine_Speed : 40|16@1+ (1,0) [0|65535] "" XXX
 
 BO_ 1298 NEW_MSG_0512: 8 XXX
  SG_ Counter : 40|8@1+ (1,0) [0|255] "" XXX
