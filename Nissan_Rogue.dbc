@@ -33,4 +33,16 @@ NS_ :
 
 BS_:
 
-BU_:
+BU_: XXX
+
+
+BO_ 2 NEW_MSG_1: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|8@1- (1,0) [0|255] "" XXX
+
+BO_ 397 NEW_MSG_2: 8 XXX
+
+BO_ 437 NEW_MSG_3: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 347 NEW_MSG_4: 8 XXX
+ SG_ NEW_SIGNAL_1 : 16|8@1+ (1,0) [0|255] "" XXX
