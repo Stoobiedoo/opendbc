@@ -62,16 +62,16 @@ BO_ 1281 NEW_MSG_0501: 8 XXX
 
 BO_ 1041 NEW_MSG_0411: 8 XXX
  SG_ 0411_Byte3 : 24|8@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_1 : 32|4@1+ (1,0) [0|15] "" XXX
+ SG_ GearIndicator : 32|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 2 NEW_MSG_02: 8 XXX
  SG_ Steering : 0|16@1- (0.1,0) [0|65535] "" XXX
 
 BO_ 1042 NEW_MSG_0412: 8 XXX
- SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
- SG_ NEW_SIGNAL_2 : 23|16@0+ (1,0) [0|65535] "" XXX
- SG_ NEW_SIGNAL_4 : 40|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 31|8@0+ (1,0) [0|65535] "" XXX
+ SG_ Throttle_0to255 : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ Throttle_0to65536 : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ Throttle_0to35250 : 23|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 1537 NEW_MSG_0601: 8 XXX
  SG_ NEW_SIGNAL_1 : 31|16@0+ (1,0) [0|65535] "" XXX
